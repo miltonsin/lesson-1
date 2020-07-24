@@ -1,7 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    led.plotBrightness(2, 3, 218)
-    led.setBrightness(255)
-})
 music.playMelody("E B G A F C5 - F ", 500)
 led.plot(1, 2)
 while (false) {
@@ -26,4 +22,8 @@ basic.forever(function () {
         # . . . #
         # # # # #
         `)
+    basic.showNumber(7)
+    if (true) {
+        basic.showIcon(IconNames.Heart)
+    }
 })
